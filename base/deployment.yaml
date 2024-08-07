@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: deployment
+  namespace: test-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: resume-parser
+  template:
+    metadata:
+      labels:
+        app: resume-parser
+    spec:
+      containers:
+      - name: frontend
+        image: skulkarniassyst/resume-parser:4b064dc
+        ports:
+        - containerPort: 80
