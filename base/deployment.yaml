@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: deployment
-  namespace: resume-parser-deployment-deployment
+  namespace: resume-parser-deployment
 spec:
   replicas: 3
   selector:
