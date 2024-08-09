@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: example-service
-  namespace: test-deployment
+  namespace: resume-parser-deployment
 spec:
   selector:
     app: resume-parser
