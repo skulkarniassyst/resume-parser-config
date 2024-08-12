@@ -3,3 +3,8 @@ kind: Kustomization
 
 resources:
   - base/
+
+images:
+  - name: resume-parser-frontend
+    newName: dockerhub URL
+    newTag: latest
