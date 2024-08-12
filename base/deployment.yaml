@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: skulkarniassyst/resume-parser:latest
+        image: skulkarniassyst/resume-parser:staging
         ports:
         - containerPort: 80
