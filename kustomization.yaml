@@ -7,4 +7,4 @@ resources:
 images:
   - name: resume-parser-frontend
     newName: skulkarniassyst/resume-parser
-    newTag: latest
+    newTag: 567b692
