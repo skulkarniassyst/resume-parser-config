@@ -7,4 +7,4 @@ resources:
 images:
   - name: resume-parser-frontend
     newName: https://hub.docker.com/r/skulkarniassyst/resume-parser
-    newTag: latest
+    newTag: 567b692
