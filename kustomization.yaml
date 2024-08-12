@@ -7,4 +7,4 @@ resources:
 images:
   - name: skulkarniassyst/resume-parser  
     newName: skulkarniassyst/resume-parser 
-    newTag: staging
+    newTag: 567b692
