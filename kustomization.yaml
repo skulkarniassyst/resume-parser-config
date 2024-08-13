@@ -7,4 +7,4 @@ resources:
 images:
   - name: skulkarniassyst/resume-parser  
     newName: skulkarniassyst/resume-parser 
-    newTag: 02e2b7e
+    newTag: f0c263c
