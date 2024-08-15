@@ -10,4 +10,4 @@ images:
     newTag: staging
   - name: skulkarniassyst/resume-parser-backend
     newName: skulkarniassyst/resume-parser-backend
-    newTag: scanning
+    newTag: staging
