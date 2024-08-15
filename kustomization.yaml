@@ -6,7 +6,7 @@ resources:
 
 images:
   - name: skulkarniassyst/resume-parser-frontend
-    newName: skulkarniassyst/resume-parser-frontend.*.*asdklfasdklf
+    newName: skulkarniassyst/resume-parser-frontend
     newTag: latest
   - name: skulkarniassyst/resume-parser-backend
     newName: skulkarniassyst/resume-parser-backend
