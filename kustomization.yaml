@@ -7,7 +7,6 @@ resources:
 images:
   - name: skulkarniassyst/resume-parser-frontend
     newName: skulkarniassyst/resume-parser-frontend
-i
     newTag: scanning
   - name: skulkarniassyst/resume-parser-backend
     newName: skulkarniassyst/resume-parser-backend
