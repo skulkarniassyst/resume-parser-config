@@ -7,7 +7,7 @@ resources:
 images:
   - name: skulkarniassyst/resume-parser-frontend
     newName: skulkarniassyst/resume-parser-frontendasdklfasdklf
-            newTag: latest
+    newTag: latest
   - name: skulkarniassyst/resume-parser-backend
     newName: skulkarniassyst/resume-parser-backend
-            newTag: latest
+    newTag: latest
