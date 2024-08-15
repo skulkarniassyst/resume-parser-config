@@ -8,4 +8,4 @@ images:
   - name: skulkarniassyst/resume-parser-frontend
     newTag: latest
   - name: skulkarniassyst/resume-parser-backend
-    newTag: f0c263c
+    newTag: cc3c7f4
