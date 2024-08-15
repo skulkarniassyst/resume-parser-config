@@ -6,14 +6,14 @@ spec:
   replicas: 3
   selector:
     matchLabels:
-      app: resume-parser
+      app: resume-parser-frontend
   template:
     metadata:
       labels:
-        app: resume-parser
+        app: resume-parser-frontend
     spec:
       containers:
       - name: frontend
-        image: skulkarniassyst/resume-parser:latest
+        image: skulkarniassyst/resume-parser-frontend:latest
         ports:
         - containerPort: 80

@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: backend-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: resume-parser-backend
+  template:
+    metadata:
+      labels:
+        app: resume-parser-backend
+    spec:
+      containers:
+      - name: backend
+        image: skulkarniassyst/resume-parser-backend:latest
+        ports:
+        - containerPort: 5000  # Assuming your backend runs on port 5000

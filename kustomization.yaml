@@ -5,6 +5,7 @@ resources:
   - base/
 
 images:
-  - name: skulkarniassyst/resume-parser  
-    newName: skulkarniassyst/resume-parser 
+  - name: skulkarniassyst/resume-parser-frontend
+    newTag: latest
+  - name: skulkarniassyst/resume-parser-backend
     newTag: f0c263c

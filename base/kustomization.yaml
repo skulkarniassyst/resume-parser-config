@@ -5,5 +5,5 @@ commonLabels:
   app: resume-parser
 
 resources:
-  - deployment.yaml
-  - service.yaml
+  - frontend-deployment.yaml
+  - frontend-service.yaml
